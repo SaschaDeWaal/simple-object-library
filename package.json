@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "simple object library",
   "main": "manager.js",
+  "repository": {
+    "url": "https://github.com/SaschaDeWaal/simple-object-library"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
