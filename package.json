@@ -1,7 +1,7 @@
 {
-  "name": "sol",
+  "name": "simple-object-engine",
   "version": "1.0.0",
-  "description": "simple object library",
+  "description": "simple object engine",
   "main": "manager.js",
   "repository": {
     "url": "https://github.com/SaschaDeWaal/simple-object-library"

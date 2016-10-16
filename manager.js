@@ -1,12 +1,15 @@
-"use strict"
+"use strict";
 
-let sol = {
-  
-  getInfo: () => {
-    console.log("this is a simple oop manager");
-  }
-  
-  
+let engine = {
+  objects : require('./objects.js'),
+  loops : require('./loops.js'),
+  searchTools: require('./searchTools.js')
 }
 
-module.exports = sol; 
+//start
+engine.objects.start(engine);
+engine.loops.start(engine);
+engine.searchTools.start(engine); 
+
+
+module.exports = engine;
